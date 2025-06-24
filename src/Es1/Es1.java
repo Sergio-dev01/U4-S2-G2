@@ -11,6 +11,7 @@ public class Es1 {
         System.out.print("Inserisci numero di ripetizioni:  ");
         int n = scanner.nextInt();
 
+        //Utilizzando Set non ammette duplicati
         Set<String> paroleDistinte = new HashSet<>();
         Set<String> paroleDuplicate = new HashSet<>();
         scanner.nextLine();
